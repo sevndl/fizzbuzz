@@ -9,6 +9,7 @@ namespace FizzBuzz
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }

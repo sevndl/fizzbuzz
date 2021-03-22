@@ -1,0 +1,17 @@
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CopyComplete
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
+D:\projects\repoGithub\fizzbuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
