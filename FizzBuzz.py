@@ -7,6 +7,8 @@ class FizzBuzz:
             return "Fizz"
         if nombre % 5 == 0:
             return "Buzz"
+        if nombre == 15:
+            return "FizzBuzz"
         return nombre
     
 class ArgumentError(Exception):
