@@ -40,20 +40,20 @@ class FizzBuzz_test(unittest.TestCase):
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(valeurAttendue,nombreRendu)
 
-    def test_renvoie_fizz_avec_5(self):
+    def test_renvoie_buzz_avec_5(self):
         nombre = 5
-        valeurAttendue = 'Fizz'
+        valeurAttendue = 'Buzz'
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(valeurAttendue,nombreRendu)
 
-    def test_renvoie_fizz_avec_10(self):
+    def test_renvoie_buzz_avec_10(self):
         nombre = 10
-        valeurAttendue = 'Fizz'
+        valeurAttendue = 'Buzz'
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(valeurAttendue,nombreRendu)
 
-    def test_renvoie_fizz_avec_multiple_de_5(self):
+    def test_renvoie_buzz_avec_multiple_de_5(self):
         nombre = 20
-        valeurAttendue = 'Fizz'
+        valeurAttendue = 'Buzz'
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(valeurAttendue,nombreRendu)
