@@ -1,13 +1,8 @@
 import unittest
 from FizzBuzz import FizzBuzz
 from FizzBuzz import ArgumentError
+
 class FizzBuzz_test(unittest.TestCase):
-
-    def test_renvoie_le_nombre_4(self):
-        nombre = 4
-        nombreRendu = FizzBuzz.NombreVerificateur(nombre)
-        self.assertEqual(nombre,nombreRendu)
-
     def test_renvoie_le_nombre(self):
         nombre = 7
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
@@ -22,12 +17,6 @@ class FizzBuzz_test(unittest.TestCase):
         nombre = -10
         with self.assertRaises(ArgumentError):
             FizzBuzz.NombreVerificateur(nombre)
-
-    def test_renvoie_fizz_avec_3(self):
-        nombre = 3
-        valeurAttendue = 'Fizz'
-        nombreRendu = FizzBuzz.NombreVerificateur(nombre)
-        self.assertEqual(valeurAttendue,nombreRendu)
 
     def test_renvoie_fizz_avec_multiple_de_3(self):
         nombre = 6

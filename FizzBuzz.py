@@ -2,9 +2,9 @@ class FizzBuzz:
     @staticmethod
     def NombreVerificateur(nombre):
         if nombre <= 0:
-            raise(ArgumentError()) 
+            raise(ArgumentError('Le nombre doit être positif.')) 
         if nombre % 5 == 0 and nombre % 3 == 0:
-          return 'FizzBuzz'
+            return 'FizzBuzz'
         if nombre % 3 == 0:
             return "Fizz"
         if nombre % 5 == 0:
@@ -12,5 +12,6 @@ class FizzBuzz:
         return nombre
     
 class ArgumentError(Exception):
-    def __init__(self):
+    def __init__(self, message):
         super()
+        print(message)
