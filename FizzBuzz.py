@@ -5,8 +5,6 @@ class FizzBuzz:
             raise(ArgumentError())
         if nombre % 3 == 0:
             return "Fizz"
-        if nombre == 5 or nombre == 10:
-            return "Buzz"
         if nombre % 5 == 0:
             return "Buzz"
         return nombre
