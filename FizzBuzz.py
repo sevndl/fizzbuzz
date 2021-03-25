@@ -5,6 +5,8 @@ class FizzBuzz:
             raise(ArgumentError())
         if nombre == 3:
             return "Fizz"
+        if nombre % 3 == 0:
+            return "Fizz"
         return nombre
     
 class ArgumentError(Exception):
