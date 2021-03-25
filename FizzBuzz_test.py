@@ -9,7 +9,7 @@ class FizzBuzz_test(unittest.TestCase):
         self.assertEqual(nombre,nombreRendu)
 
     def test_renvoie_le_nombre(self):
-        nombre = 6
+        nombre = 7
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(nombre,nombreRendu)
 
