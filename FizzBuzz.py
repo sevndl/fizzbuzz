@@ -2,11 +2,7 @@ class FizzBuzz:
     @staticmethod
     def NombreVerificateur(nombre):
         if nombre <= 0:
-            raise(ArgumentError())
-        if nombre == 15:
-            return "FizzBuzz"
-        if nombre == 30:
-            return "FizzBuzz" 
+            raise(ArgumentError()) 
         if nombre % 5 == 0 and nombre % 3 == 0:
           return 'FizzBuzz'
         if nombre % 3 == 0:
