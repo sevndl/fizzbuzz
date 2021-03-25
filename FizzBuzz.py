@@ -14,4 +14,4 @@ class FizzBuzz:
 class ArgumentError(Exception):
     def __init__(self, message):
         super()
-        print(message)
+        self.message = message
