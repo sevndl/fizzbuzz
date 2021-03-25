@@ -7,6 +7,8 @@ class FizzBuzz:
             return "FizzBuzz"
         if nombre == 30:
             return "FizzBuzz" 
+        if nombre % 5 == 0 and nombre % 3 == 0:
+          return 'FizzBuzz'
         if nombre % 3 == 0:
             return "Fizz"
         if nombre % 5 == 0:
