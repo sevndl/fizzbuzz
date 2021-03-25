@@ -3,8 +3,6 @@ class FizzBuzz:
     def NombreVerificateur(nombre):
         if nombre <= 0:
             raise(ArgumentError())
-        if nombre == 3:
-            return "Fizz"
         if nombre % 3 == 0:
             return "Fizz"
         return nombre
