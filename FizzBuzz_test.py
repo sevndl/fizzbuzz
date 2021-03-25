@@ -22,3 +22,8 @@ class FizzBuzz_test(unittest.TestCase):
         nombre = -1
         with self.assertRaises(ArgumentError):
             FizzBuzz.NombreVerificateur(nombre)
+
+    def test_renvoie_une_erreur_si_negatif(self):
+        nombre = -10
+        with self.assertRaises(ArgumentError):
+            FizzBuzz.NombreVerificateur(nombre)
