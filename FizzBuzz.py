@@ -13,7 +13,7 @@ class FizzBuzz:
             return "Fizz"
         if nombre % 5 == 0:
             return "Buzz"
-        return nombre
+        return str(nombre)
     
 class ArgumentError(Exception):
     def __init__(self, message):
