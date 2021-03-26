@@ -11,7 +11,7 @@ def main():
       print("Merci d'avoir joué")
     else:
       try:
-        print('Bob :', FizzBuzz.NombreVerificateur(int(inputAlice)))
+        print('Bob :', FizzBuzz.NombreVerificateur(inputAlice))
       except ArgumentError as e:
         print('Bob :', e.message)
 
