@@ -35,3 +35,8 @@ class FizzBuzz_test(unittest.TestCase):
         valeurAttendue = 'FizzBuzz'
         nombreRendu = FizzBuzz.NombreVerificateur(nombre)
         self.assertEqual(valeurAttendue,nombreRendu)
+
+    def test_renvoie_une_erreur_si_pas_un_nombre(self):
+        nombre = "Texte"
+        with self.assertRaises(ArgumentError):
+            FizzBuzz.NombreVerificateur(nombre)
