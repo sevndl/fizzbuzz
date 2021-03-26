@@ -40,3 +40,6 @@ class FizzBuzz_test(unittest.TestCase):
         nombre = "Texte"
         with self.assertRaises(ArgumentError):
             FizzBuzz.NombreVerificateur(nombre)
+
+if __name__ == '__main__':
+    unittest.main()
